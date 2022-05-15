@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6778670102315926450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6778670102315926451}
+  m_Layer: 0
+  m_Name: Managers Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6778670102315926451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670102315926450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.003668, y: 0.7741494, z: 15.422283}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6778670102416156005}
+  - {fileID: 6778670103467476628}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6778670102416156004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6778670102416156005}
+  - component: {fileID: 6778670102416155994}
+  - component: {fileID: 6778670102416155995}
+  m_Layer: 0
+  m_Name: MainManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6778670102416156005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670102416156004}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.7315445, y: 1.3939826, z: -12.459713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6778670102315926451}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6778670102416155994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670102416156004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42f13f4b0b2b704cb4715fdeb781eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  dialogueFeedbackText: {fileID: 0}
+  puzzleFeedbackText: {fileID: 0}
+  collectibleFeedbackText: {fileID: 0}
+  dist: 4
+--- !u!114 &6778670102416155995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670102416156004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7252c2d1cae1b3141884826f03aa4cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pyramid:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  pyramidState: 1
+--- !u!1 &6778670103467476631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6778670103467476628}
+  - component: {fileID: 6778670103467476629}
+  - component: {fileID: 6778670103467476618}
+  - component: {fileID: 6778670103467476619}
+  m_Layer: 0
+  m_Name: PuzzleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6778670103467476628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670103467476631}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.7315445, y: 1.3939826, z: -12.459713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6778670102315926451}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6778670103467476629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670103467476631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1a9f878e8dc5e428ce594a9573d10e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  memoryPuzzleCanvas: {fileID: 0}
+  memoryConfirmCanvas: {fileID: 0}
+  memoryVictoryCanvas: {fileID: 0}
+  memoryPyramidPiece: {fileID: 0}
+  variavelControle: 0
+  variavelControle2: 0
+  points: 0
+  puzzleCards:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  buttonSprites:
+  - {fileID: 21300000, guid: 84552e3ec1344034ba347633f6aed0c9, type: 3}
+  - {fileID: 21300000, guid: e3009a5b95e26164cbaf6183d37dea21, type: 3}
+  - {fileID: 21300000, guid: ee9e58878eec07e4991258f85c49364c, type: 3}
+  - {fileID: 21300000, guid: b78f8ac3bdb54454db80c2bbb9449fdb, type: 3}
+  - {fileID: 21300000, guid: 9d04c181068e099468cdbf2b4cfd4a15, type: 3}
+  - {fileID: 21300000, guid: 7a6e695e7519cba4fb81d4f2c2cfb4a4, type: 3}
+--- !u!114 &6778670103467476618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670103467476631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b05df97a28d71394d969a5bb4f5f1e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pyramidCollider: {fileID: 0}
+  pyramidConfirmCanvas: {fileID: 0}
+  pyramidVictoryCanvas: {fileID: 0}
+  pyramidPuzzleDone: 0
+--- !u!114 &6778670103467476619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778670103467476631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feee619448745be4388fddea67e241d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  steleConfirmCanvas: {fileID: 0}
+  stelePuzzleCanvas: {fileID: 0}
+  steleCanvas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  steleInventoryCanvas: {fileID: 0}
+  stelePuzzleVictoryCanvas: {fileID: 0}
+  inventoryButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stelePyramidPiece: {fileID: 0}
+  plaqueImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  BotaoDeColeta1: {fileID: 0}
+  BotaoDeColeta2: {fileID: 0}
+  BotaoDeColeta3: {fileID: 0}
+  BotaoPosicionar1: {fileID: 0}
+  BotaoPosicionar2: {fileID: 0}
+  BotaoPosicionar3: {fileID: 0}
+  BotaoPegar1: {fileID: 0}
+  BotaoPegar2: {fileID: 0}
+  BotaoPegar3: {fileID: 0}
+  changeCanvasButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  points: 0
+  buttonSprites:
+  - {fileID: 21300000, guid: a5a1ab92a5368c847975861179fdb9dc, type: 3}
+  - {fileID: 21300000, guid: 2a792fe1bc6f59f45838051f7b7458ab, type: 3}
+  - {fileID: 21300000, guid: 16e7bef0f69718f4ba933ebd68f9016a, type: 3}
+  - {fileID: 21300000, guid: f5807ff614c064b4eaea6f49a0bd4ff3, type: 3}
+  EstelasNaCenaDoJogo:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
